@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            body{
+                background-color: rgb(135, 5, 241);
+                text-align: center;
+            }
+            h1{
+                color: black;
+                display: inline-block;
+                width: 90px;
+                background-color: white;
+                
+                
+            }
+        </style>
+    </head>
+    <body>
+        <div >
+            <h1 style="width: 200px;">Stop Watch</h1>
+            
+        </div>
+        <div style="background-color:rgb(135, 5, 241);">
+            <h1 id="hour">00</h1>
+            <h1 id="min">00</h1>
+            <h1 id="sec">00</h1>
+            <h1 style="color:rgb(135, 5, 241);" id="msec">00</h1>
+        </div>
+
+        <div style="background-color: rgb(135, 5, 241);">
+            <button style="background-color:white; width: 100px; height: 40px; font-size: 20px; font-weight: bold; color: rgb(135, 5, 241);" onclick="start()">Start</button>
+            <button style="background-color:white;width: 100px; height: 40px; font-size: 20px; font-weight: bold; color: rgb(135, 5, 241);" onclick="stop()">Stop</button>
+            <button style="background-color:white;width: 100px; height: 40px; font-size: 20px; font-weight: bold; color: rgb(135, 5, 241);" onclick="reset()">Reset</button>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
